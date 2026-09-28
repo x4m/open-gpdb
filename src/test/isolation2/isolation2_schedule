@@ -1,6 +1,7 @@
 test: setup
 test: cached_plan
 test: gpdispatch
+test: segment_write_rollback
 test: checkpoint_dtx_info
 test: lockmodes
 # Put test prepare_limit near to test lockmodes since both of them reboot the
